@@ -20,4 +20,6 @@ Regardless of where one might stand politically, or the quality of Secretary Cli
 
 ## Call to Action & Implementation of Data Science: 
 
-Beyond the example above, there 
+Beyond the example above, there are other abuses of online reviews, and few solutions to help customers make informed decisions about products.  A further example can be illustrated in a thought experiment: would you more likely buy two identical goods, but one with two five star rating, or one with ten four star ratings?  In many marketplaces, the former good would rank higher, leading to a (potentially) less favorable outcome for customers, and one that incents vendors to undertake bad actions early on during a product launch to ensure a product's success.
+
+Review transparency and application of statistical analysies such as confidence intervals could help aid consumers on such ecommerce sites, perhaps through the creation of a browser-plugin or tool.  
