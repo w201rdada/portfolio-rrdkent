@@ -10,11 +10,14 @@ Online retail has fundamentally changed the way that consumers shop and purchase
 
 ## The Issue at Hand
 
-<!-- ...or include images directly from the web. Cite your sources! -->
-```{r machine-learning,echo=FALSE,fig.cap='[xkcd: Machine Learning](https://xkcd.com/1838/)',fig.align='center',out.width='50%'}
-knitr::include_graphics('https://imgs.xkcd.com/comics/machine_learning.png')
-```
+Consumers put a near blind faith in the validity and veracity of online reviews, doubly so from "reputable" marketplace sites such as AirBnB, eBay, and Amazon.  Product and service offerings are frequently displayed using algorithms that take into account the value of the aggregate mean customer review for a particular service or SKU.
 
-Commodo mustache pinterest yr, nostrud nesciunt esse  photo booth.  Keytar synth mlkshk, ullamco veniam sed laboris  seitan velit  live-edge fam gastropub.  Ad mumblecore nihil messenger bag williamsburg occaecat.  Bushwick pickled ullamco, keytar letterpress vice chillwave cillum.  Voluptate  listicle irure  food truck coloring book shoreditch.  Before they sold out four dollar toast stumptown single-origin coffee, retro nostrud veniam dreamcatcher street art subway tile sed pabst hoodie copper mug.  Everyday carry seitan vaporware gastropub etsy, freegan ramps hashtag vegan.
+Of particular concern is the gamesmanship of many parties in the marketplace, including the marketplace itself.  For instance, in the news recently was [a report](http://www.theblaze.com/news/2017/09/15/amazon-deleted-almost-all-of-the-negative-reviews-of-clintons-new-book-heres-why/) of a signficant change to Secretary Clinton's new memoir, which previously displayed a very very strong bimodal distribution, (the vast majority of reviews clustering at one and five).  However, overnight, the marketplace seller, Amazon removed 900+ reviews, the vast preponderance of those being negative.
+
+Both the vendor, book publisher Simon and Shuster, and Amazon articulated their perspective of: "“It seems highly unlikely that approximately 1,500 people read Hillary Clinton’s book overnight and came to the stark conclusion that it is either brilliant or awful..." however, the vast majority of reviews removed were the negative reviews. - Prior to the removal, the book had nearly 1,700 reviews, with nearly 50% one-star, and 45% five star.  Following the re-adjustment, 95% of the "hundreds" of reviews that remained were very positive of the book.
+
+Regardless of where one might stand politically, or the quality of Secretary Clinton's memoir, this situation seems to demonstrate a signficant issue with the reliance on online reviews and manipulation by the actors involved in the sale and purchase of the merchandise.
 
 ## Call to Action & Implementation of Data Science: 
+
+Beyond the example above, there 
