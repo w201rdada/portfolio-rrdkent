@@ -1,25 +1,27 @@
-# My second cool idea {#slug-two}
+# Big Idea 2: Could one company’s job postings lead to more revenue for a competitor? {#Job Posting Insights for Competitive Strategy}
 
 #### Keywords
 
-yaba, daba, do
+Competitive Strategy, Job Postings, Hiring, Company Research, Competitive Insights, Corporate Strategy
 
-## A beginning.
+## The Environment
 
-Nulla  sint  art party ex, mlkshk disrupt selvage 90's.  Umami sed slow-carb, fugiat  dolore nihil glossier magna migas actually farm-to-table microdosing keytar fixie.  IPhone fashion axe pinterest, cardigan street art quinoa banh mi bitters mollit  commodo pok pok culpa  delectus ut air plant.  Offal edison bulb ex, celiac 8-bit vaporware polaroid thundercats flannel kickstarter labore.  Activated charcoal portland af tousled microdosing woke, in  thundercats consectetur gluten-free hammock duis  next level DIY.  Keffiyeh commodo velit  mollit  brunch, cronut edison bulb banh mi swag stumptown crucifix hell of.  Brunch williamsburg try-hard, seitan literally vexillologist venmo DIY pariatur nesciunt master cleanse XOXO.
+Competitive strategy is a cornerstone for any MBA education because it is applied so frequently in business - in the decision to develop new products and services, conduct M&A activities among many others.  Competitors and investors examine corporate decisions and movements oftentimes with a close eye to understand the motivations of a company and whether a response is necessary.  Indeed, these activities span the gamut from secret shopping, industry and sector research, to corporate espionage.   Any nugget of information regarding a company’s strategy could yield millions or billions worth of increased forward-looking revenue.
 
-## A middle.
+## The Issue at Hand
 
-8-bit synth irony nisi wolf, street art dreamcatcher flannel placeat selvage health goth sriracha.  Glossier labore ex venmo, cillum  live-edge jianbing everyday carry af cray laborum incididunt eiusmod jean shorts.  Normcore slow-carb lyft letterpress, beard tilde art party.  Poke marfa incididunt tempor duis.  Iceland fam ex beard, activated charcoal vaporware nesciunt lyft cronut four dollar toast irony.  Officia  stumptown voluptate  unicorn culpa  bushwick.  Mollit  vero af marfa deserunt  flexitarian.
+In many industries, arms-races occur for the development of new products, service offerings, or expansion into new geographies and in many instances, the internal discussions and decisions involving these plans are highly sensitive.  Outside stakeholders, whether they are investors, competitors, or partners who wish to capitalize off of a company’s new direction frequently cannot afford to not pay attention to the actions (or inaction) of a major player in their industry.
 
+With the rise of the Internet, job hunting and recruiting has migrated from the classifieds section in newspapers and bulletin boards, to job boards and careers sections in company websites.  Frequently, for new initiatives in new domains or geographies, companies must hire new talent – a public insight into what could be the outcome of very private executive-level decision. 
 
-```{r experimental,echo=F,results='asis',eval=F}
-data.table::fread('https://raw.githubusercontent.com/UCB-MIDS/experiments-causality/master/data/GerberGreenBook_Chapter3_Donations.csv?token=ABNmuX-Q14rzQ4teItDenc9L5Wo2flncks5ZL5qEwA%3D%3D') %>% stargazer::stargazer(type = 'html',title = 'Something from W241 Experiments and Causality')
-```
+Currently, there are few to no comprehensive platforms to go about scraping, cataloging, and analyzing the job postings and descriptions from companies online.  This opportunity could significantly benefit other market players and investors, such as hedge funds seeking additional information to incorporate into their strategy or investment thesis.  In other words, the data is there, but it is not being capitalized.  
 
+## Call to Action & Implementation of Data Science: 
 
-Laborum williamsburg sunt whatever, DIY reprehenderit  retro vaporware id  hella flannel sartorial vero fugiat  before they sold out.  Copper mug salvia keffiyeh, neutra nostrud iceland keytar kogi church-key quinoa ramps mlkshk.  Seitan mollit  3 wolf moon, forage shabby chic cillum  church-key tofu exercitation aliquip.  Church-key distillery flexitarian meh incididunt retro, ugh wolf selvage hashtag.  Bicycle rights 90's officia  vape.  Listicle post-ironic vape ex.  Gluten-free lomo tumeric, yuccie everyday carry tempor put a bird on it knausgaard nisi ugh skateboard VHS.
+I am advocating for the development of a tool to help scrape, analyze, and classify new job postings on a company’s career webpage to gain further insight into a company’s direction and decision making.  Currently the data is not being aggregated and synthesized into meaningful and actionable content – which could be useful to vendors, competitors, investors, and potential partners.  
 
-## An end.
+For example, would we have been able to foretell the development of Google’s foray into becoming an ISP through their posting of job openings for ISP-related roles?  Or perhaps could we also have identified the limited success and possible reorganization of the same initiative by identifying a reduction in hiring in certain geographies?
 
-Kombucha pok pok lomo, forage bicycle rights paleo kickstarter literally.  Hot chicken dolor  vegan accusamus master cleanse tousled, yuccie cliche retro aesthetic bushwick actually.  Ennui viral VHS pitchfork pop-up cornhole, nihil quinoa scenester gentrify occaecat  YOLO anim.  Umami copper mug live-edge, air plant meditation bushwick chartreuse adipisicing tousled.  Art party affogato chicharrones, photo booth enim swag vero meh seitan +1 activated charcoal nihil.  Etsy gluten-free authentic mixtape.  Shabby chic duis  90's pop-up pinterest, lumbersexual mollit  cillum.
+Perhaps more prospectively, would we be able to predict if and when Amazon begins their push into the Pharmaceutical market?  The implications for online and mail order prescription services could be significant, doubly so for shareholders and investors.  
+
+By leveraging data science to draw out these insights, we would be able to bring additional clarity into a previously less-clear area of competitive strategy.  
