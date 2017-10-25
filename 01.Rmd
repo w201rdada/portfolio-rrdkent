@@ -1,31 +1,30 @@
-# Big Idea 1: Online Reviews are Broken {#OnlineReviews}
-
+# Online Reviews are Broken {#FixOnlineReviews}
+<!-- Consider signaling the solution in the title as well as the problem.-->
 #### Keywords
 
-Online Reviews, Amazon, Customer Reviews, 
-
+Online Reviews, Amazon, Customer Reviews
+<!-- add tech keywords -->
 ## The Environment
 
-Online retail has fundamentally changed the way that consumers shop and purchase goods.  Popularized early on during the rise of e-commerce, was the implementation of elements of voice of the customer (VoC) that included product reviews and testimonials. These reviews became commonplace and quantified with the maturation of online shopping, but elements of abuse by both vendors, marketplaces, and customers are rife.
+Online retail has fundamentally changed the way that consumers shop and purchase goods.  Popularized early during the rise of e-commerce was the inclusion of the voice of the customer in product reviews and testimonials. These reviews became commonplace and quantified with the maturation of online shopping, but abuse by vendors, marketplaces, and customers PHRASE THAT CAPTURES VALUE PROPOSITION.
 
 ## The Issue at Hand
+<!--make headings more informative -->
+Consumers put a near blind faith <!-- don't overstate --> in the validity and veracity of online reviews, doubly so from "reputable" marketplace sites such as AirBnB, eBay, and Amazon.  According to Business Insider, "one-third of customers refuse to purchase products that have not received positive feedback from customers..." and "positive reviews increase sales by 20% on sites that implement them into the shopping experience well." (http://www.businessinsider.com/amazon-reviews-greatly-impact-online-shopping-sales-2017-3?&platform=bi-androidapp) <!-- paraphrase rather than quote --> Product and service offerings are frequently displayed using algorithms that take into account the mean customer rating for a particular service or SKU.
 
-Consumers put a near blind faith in the validity and veracity of online reviews, doubly so from "reputable" marketplace sites such as AirBnB, eBay, and Amazon.  According to Business Insider, “one-third of customers refuse to purchase products that have not received positive feedback from customers …” and “positive reviews increase sales by 20% on sites that implement them into the shopping experience well.” (http://www.businessinsider.com/amazon-reviews-greatly-impact-online-shopping-sales-2017-3?&platform=bi-androidapp)   Product and service offerings are frequently displayed using algorithms that take into account the value of the aggregate mean customer review for a particular service or SKU.
+Of particular concern is the gamesmanship of many parties in the marketplace, including the marketplace itself.  For instance, in the news recently was [a report](http://www.theblaze.com/news/2017/09/15/amazon-deleted-almost-all-of-the-negative-reviews-of-clintons-new-book-heres-why/) of a significant change to Secretary Clinton's new memoir, which previously displayed a very strong bimodal distribution with the vast majority of reviews clustering at one and five.  However, overnight, the marketplace seller, Amazon removed more than 900 reviews, the vast <!-- too many vasts --> preponderance of those being negative.
 
-Of particular concern is the gamesmanship of many parties in the marketplace, including the marketplace itself.  For instance, in the news recently was [a report](http://www.theblaze.com/news/2017/09/15/amazon-deleted-almost-all-of-the-negative-reviews-of-clintons-new-book-heres-why/) of a significant change to Secretary Clinton's new memoir, which previously displayed a very strong bimodal distribution, (the vast majority of reviews clustering at one and five).  However, overnight, the marketplace seller, Amazon removed 900+ reviews, the vast preponderance of those being negative.
+The vendor, book publisher Simon and Shuster, and Amazon all articulated their perspective of: "It seems highly unlikely that approximately 1,500 people read Hillary Clinton’s book overnight and came to the stark conclusion that it is either brilliant or awful..." however, the vast majority of reviews removed were the negative reviews. Prior to the removal, the book had nearly 1,700 reviews, with nearly 50 percent being one star, and 45 percent five star.  Following the readjustment, 95 percent of the hundreds of reviews that remained were very positive of the book.
 
-The vendor, book publisher Simon and Shuster, and Amazon all articulated their perspective of: "It seems highly unlikely that approximately 1,500 people read Hillary Clinton’s book overnight and came to the stark conclusion that it is either brilliant or awful..." however, the vast majority of reviews removed were the negative reviews. - Prior to the removal, the book had nearly 1,700 reviews, with nearly 50% one-star, and 45% five star.  Following the re-adjustment, 95% of the "hundreds" of reviews that remained were very positive of the book.
+Regardless of where one might stand politically, or the quality of Secretary Clinton's memoir, this anecdote illustrates a significant issue with the reliance on online reviews and their manipulation by the actors involved <!-- besides buyers and sellers, what other actors are interested in manipulating reviews? --> in the sale and purchase of the merchandise.
 
-Regardless of where one might stand politically, or the quality of Secretary Clinton's memoir, this situation seems to demonstrate a significant issue with the reliance on online reviews and manipulation by the actors involved in the sale and purchase of the merchandise.
+Beyond the example above, there are other abuses of online reviews, and few solutions to help customers make informed decisions about products.  A further example can be illustrated in a thought experiment: would you more likely buy two identical goods, but one with two five star rating, or one with ten four star ratings?  In many marketplaces, the former good would rank higher, leading to a (potentially) less favorable outcome for customers, and one that incentivizes vendors to undertake bad actions early in a product launch to ensure its success.
 
-Beyond the example above, there are other abuses of online reviews, and few solutions to help customers make informed decisions about products.  A further example can be illustrated in a thought experiment: would you more likely buy two identical goods, but one with two five star rating, or one with ten four star ratings?  In many marketplaces, the former good would rank higher, leading to a (potentially) less favorable outcome for customers, and one that incents vendors to undertake bad actions early on during a product launch to ensure a product's success.
+## Call to Action & Implementation of Data Science
 
-## Call to Action & Implementation of Data Science: 
-
-We have identified two issues: the inability to see the change over time of a review, and how to compare products with different numbers of reviews.  Websites could cede control over their reviews to a neutral third party, such as [Trustpilot]( https://www.trustpilot.com/), though it is unlikely that outside of significant customer backlash, large marketplaces would be incented to do so.
-
+We have identified two issues: the inability to see the change over time of a review, and how to compare products with different numbers of reviews.  Websites could cede control over their reviews to a neutral third party, such as [Trustpilot]( https://www.trustpilot.com/), though it is unlikely that outside of significant customer backlash, large vendors would do so.
+<!-- market == marketplace ?? Amazon is not a market in an economic sense. -->
 Review transparency through the introduction of a review tracker, such as those that track [prices]( https://camelcamelcamel.com/) [currently]( https://keepa.com/)  and application of statistical analysis such as [confidence intervals]( https://www.evanmiller.org/how-not-to-sort-by-average-rating.html) could help aid consumers on such ecommerce sites, perhaps through the creation of a browser-plugin or tool just like Keepa and Camel Camel Camel.  
-
-Some marketplaces, such as Valve’s Steam have [incorporated]( https://arstechnica.com/gaming/2017/09/steam-has-a-review-bomb-problem-but-will-todays-new-feature-fix-it/?amp=1) histograms to help provide transparency over the course of time, as computer games have long been a target for malicious activity (known as “review bombing”), though no highly-trafficked site has implemented confidence intervals, possibly due to the greater nuances required with explaining the concept to customers and bias of upending a paradigm that currently works “well enough.”
-
-
+<!--Don't point to references without explaining what the references say. Assume your reader will not follow your sources or read your footnotes. Everything necessary to understand your argument should be stated in the body of the text.-->
+<!-- laudable effort at defining the problem. Only now do you begin to suggest solutions. -->
+Some marketplaces, such as Valve’s Steam have [incorporated]( https://arstechnica.com/gaming/2017/09/steam-has-a-review-bomb-problem-but-will-todays-new-feature-fix-it/?amp=1) histograms to help provide transparency over the course of time, as computer games have long been a target for malicious activity (known as "review bombing"). No highly-trafficked site has implemented confidence intervals, possibly due to the greater nuances required with explaining the concept to customers and bias of upending a paradigm that currently works "well enough."
