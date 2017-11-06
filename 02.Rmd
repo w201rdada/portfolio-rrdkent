@@ -27,3 +27,28 @@ Perhaps more prospectively, would we be able to predict if and when Amazon begin
 By leveraging data science to draw out these insights, we would be able to bring additional clarity into a previously less-clear area of competitive strategy.  
 
 While the technical implementation will require additional thought, a rudimentary proof-of-concept system could be developed from scraping the careers pages from a handful of large corporations.  The data could then be parsed for title, skills, and geographies and then assembled and cross-checked with an established ontological system.  For public companies, an n-gram analysis could be conducted to identify senior management positions that do not have disclosure on their 10Ks or 10Qs, which could lead to a hypothesis of a new geography or product/service push.  
+
+The implementation of such an application’s proof of concept could look like the following:
+
+Inputs:
+Shareholder letters, 10K, 10Q, other regulatory filings, company’s general webpage scrapings, webpage scrapes of corporate career pages.
+
+Development of Infrastructure:
+Creation of a skills and location ontology, so that specific skills roll-up appropriately to specific domains; likewise, specific localities roll up to their respective geographies.
+Creation of a warehouse of past job postings from corporate career pages.
+Based upon these ontologies and data warehouses, development of creation of n-gram index to compare a diff from new job postings and historical skills, positions, titles, products, and geographies.
+
+Output:
+Development of algorithm + dashboard + reporting + alerts system to identify major new hirings with respect to new skills, products, geographies, relative to historical data (See inputs).
+
+Example Process:
+Following setup and initial crunching, the web scraper constantly monitors Example.com to identify Example Corp’s new corporate listings for open positions.  It identifies 27 new listings in the past three months for the hiring of technical staff familiar with a specific aerospace engineering protocol and design.
+
+The algorithm identifies this trend and looks in the past corpus of data to see whether these new hirings are in line with historical product lines or typical hiring.  Identifying that this aerospace engineering protocol is brand new for this company, it flags the protocol and the specific job descriptions, identifying further n-gram commonalities and identifies additional commonalities such as location.
+
+The system then generates a report with this data including a top-level executive summary of this trend, implications for this technology based upon other company’s usage through syncing with other databases, and executes the dispatch of an alert to all subscribing clients who follow this company.  
+
+My classmate I-Wae made a fantastic point that the context of the data could be further enriched if I can capture the possibility of developing an internal org chart through additional data like LinkedIn.  This would be an excellent next step to further identify whether there is an opportunity to build out the organizational structure of a company and identify key decision makers and follow them very closely, for additional granular analysis.  For example, if the individuals have public-facing social-media or news releases, the locations and content of these types of content could further enrich the core product of insights from job postings data.
+
+As the data is not fully being leveraged, there is a lot of blue ocean opportunity for a tool described to be built.  However, in the long run, as the majority of information is publicly accessible, there would be the threat of other individuals being able to reverse-engineer or create a new system that could provide perhaps even detailed information.  It is therefore important that this platform constantly be striving to provide more and more strategic and actionable information through improved insight generation and coverage across as many industries and geographies as possible.  
+
