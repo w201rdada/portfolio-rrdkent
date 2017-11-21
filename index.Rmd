@@ -18,7 +18,7 @@ library(magrittr)
 ```{r hello-world,echo=FALSE,fig.cap='Our Fair School!',fig.align='center',out.width='50%'}
 knitr::include_graphics('img/ischool.png')
 ```
-Hello there, 
+Howdy there, 
 
 <!-- Below this line is just examples of how you can embed video from Google Drive. First you have to enable sharing, then just get the object ID which is that long string between d/ and /preview and will also be appended to any sharing link you generate for your video. -->
 <p>
@@ -26,20 +26,16 @@ Hello there,
 knitr::include_url('https://youtu.be/yyyC08Gxj3o')
 ```
 
-### Abstract of my first cool idea
+### Review Bombs Break Online Reviews and Data Science Transparency is the Answer
 
-Pop-up occupy labore, pug tofu nisi franzen YOLO tilde tumblr deep v nulla  aliqua.  Sapiente stumptown et lo-fi art party.  Eu  snackwave glossier, poutine crucifix tattooed labore thundercats hexagon tempor brunch single-origin coffee synth four loko.  Velit  beard ex etsy migas, tempor hashtag.  Live-edge fap yr food truck, heirloom snackwave tempor laborum green juice man bun selvage sriracha gastropub.  Before they sold out incididunt godard cupidatat  exercitation street art health goth ullamco, flannel dolore kombucha bespoke.  Pok pok tilde mixtape, magna swag iceland tote bag gentrify dolor  delectus.
+Online reviews play an incredibly important role in the online purchase path, but are subject to manipulation.  Alarmingly, through bad actors and organized groups, significant downside risks to the veracity of online reivews and trust in the marektplaces that host these reviews threaten potentially controversial ecommerce goods and services.  Data science is a solution that could better aggregate and inform customers, or potentially change the way online shoppers consume online reivews and choose products.  
 
 ### Abstract of my second cool idea
 
 Vero dolor  franzen letterpress.  Taxidermy pork belly messenger bag, deserunt  aliqua irure  photo booth neutra banh mi fanny pack.  Butcher fam heirloom marfa.  Tilde reprehenderit  snackwave tempor.  Qui  pop-up kitsch dolor.  Crucifix consectetur culpa  lumbersexual salvia exercitation small batch.  Pop-up duis  id  semiotics before they sold out kombucha raclette, twee selvage pitchfork.
   
-### Abstract of my third cool idea
+## About the Webmaster
 
-Activated charcoal succulents ex, pop-up minim neutra pork belly nulla  helvetica semiotics dolor  magna jianbing.  Asymmetrical franzen humblebrag, venmo kale chips offal velit  distillery blog copper mug exercitation pariatur helvetica tacos officia.  Trust fund etsy commodo umami excepteur  lo-fi, locavore humblebrag dolore artisan cliche sustainable chartreuse.  Mustache pork belly kitsch blue bottle jean shorts, intelligentsia hammock consequat hoodie heirloom single-origin coffee.  Godard nulla  yr, cray taxidermy vice pug hashtag ad eiusmod subway tile flexitarian.  Tofu magna laboris  thundercats neutra, mumblecore truffaut small batch hashtag chillwave listicle ramps eiusmod selfies meh.  Bushwick butcher cupidatat  hella organic.
-
-## About the author
-
-Sustainable aute  gochujang, messenger bag vero dolor  blog pork belly knausgaard.  Tacos brooklyn lumbersexual keytar, literally chambray iceland street art pickled master cleanse in  roof party activated charcoal jean shorts craft beer.  Semiotics tempor enamel pin nesciunt, aliquip live-edge keytar yr street art waistcoat cray everyday carry eu  sint  pariatur.  Aliquip anim  godard leggings, flexitarian direct trade  humblebrag.  Non  ennui fashion axe nesciunt, poke af kinfolk direct trade  franzen banh mi.  Craft beer laborum crucifix pork belly retro, health goth tacos est  godard four dollar toast tousled bushwick exercitation nihil normcore.  Semiotics meggings pok pok church-key whatever art party, truffaut franzen poke.
-
+Biography
+I am a Co-founder and COO/CPO at Jobwell.co and previously a Senior Manager at the LegalZoom.com Research and Development team and a Google Policy Fellow.  My MBA is from the Yale School of Management and I am working on a Masters in Information and Data Science at UC Berkeley. In 2003, I founded NetLiteracy.org, a technology-based 501(c)3 that has donated 42,000 computers and $14M in services. Our services were highlighted by the FCC in the National Broadband Plan presented to Congress, we received Computerworld's international 21st Century Award for creating "the most innovative application of IT to extend the distribution of digital information and access to Web-Based programs and services to previously underserved populations" and we have been honored by two American Presidents, including one in a private White House ceremony.      
 *Updated: `r Sys.Date()`*
