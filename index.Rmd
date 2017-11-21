@@ -30,10 +30,10 @@ knitr::include_url('https://youtu.be/yyyC08Gxj3o')
 
 Online reviews play an incredibly important role in the online purchase path, but are subject to manipulation.  Alarmingly, through bad actors and organized groups, significant downside risks to the veracity of online reivews and trust in the marektplaces that host these reviews threaten potentially controversial ecommerce goods and services.  Data science is a solution that could better aggregate and inform customers, or potentially change the way online shoppers consume online reivews and choose products.  
 
-### Abstract of my second cool idea
+### Could one company’s job postings lead to more revenue for a competitor?
 
-Vero dolor  franzen letterpress.  Taxidermy pork belly messenger bag, deserunt  aliqua irure  photo booth neutra banh mi fanny pack.  Butcher fam heirloom marfa.  Tilde reprehenderit  snackwave tempor.  Qui  pop-up kitsch dolor.  Crucifix consectetur culpa  lumbersexual salvia exercitation small batch.  Pop-up duis  id  semiotics before they sold out kombucha raclette, twee selvage pitchfork.
-  
+For hedge funds, competitors, and everybody in between, nuggets of intel in aggregate can represent millions of dollars of forward-looking revenue advantage.  Product launches and expansions are typically reserved to closed-door board meetings, but much of this data must be made public for acquiring the most important resource in development and execution - labor.  Through the aggregation, data analysis, and development of actionable insights, data science has the potential to provide an opportunity to reduce information asymetries and better plan and counter activities through the analysis of jobs postings.  
+
 ## About the Webmaster
 
 Biography
