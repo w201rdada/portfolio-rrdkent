@@ -1,12 +1,15 @@
-# Big Idea 2: Could one company’s job postings lead to more revenue for a competitor? {#Job Posting Insights for Competitive Strategy}
+# Could one company’s job postings lead to more revenue for a competitor? {#Job Posting Insights for Competitive Strategy}
+
 
 #### Keywords
 
 Competitive Strategy, Job Postings, Hiring, Company Research, Competitive Insights, Corporate Strategy
 
+
 ## A Major Purpose of Competitive Strategy is Getting an Advantage
 
 Competitive strategy is a cornerstone for any MBA education because it is applied so frequently in business - in the decision to develop new products and services, conduct M&A activities among many others.  Competitors and investors examine corporate decisions and movements oftentimes with a close eye to understand the motivations of a company and whether a response is necessary.  Indeed, these activities span the gamut from secret shopping, industry and sector research, to corporate espionage.   Any nugget of information regarding a company’s strategy could yield millions or billions worth of increased forward-looking revenue.
+
 
 ## Most Corporate Development Information is Secret – Except When You Need Outside Help
 
@@ -15,6 +18,7 @@ In many industries, arms-races occur for the development of new products, servic
 With the rise of the Internet, job hunting and recruiting has migrated from the classifieds section in newspapers and bulletin boards, to job boards and careers sections in company websites.  Frequently, for new initiatives in unfamiliar domains or geographies, companies must hire outside talent potentially yielding public visibility into what could be the outcome of very private, executive-level decision. 
 
 Currently, there are no comprehensive platforms to go about scraping, cataloging, and analyzing the job postings and descriptions from companies online.  This opportunity could significantly benefit other market players and investors, such as hedge funds seeking additional information to incorporate into their strategy or investment thesis.  In other words, the data are there, but it is not being leveraged.  
+
 
 ## Working the un-worked data for Profit
 
