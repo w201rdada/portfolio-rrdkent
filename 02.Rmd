@@ -8,51 +8,44 @@ Competitive Strategy, Job Postings, Hiring, Company Research, Competitive Insigh
 
 ## A Major Purpose of Competitive Strategy is Getting an Advantage
 
-Competitive strategy is a cornerstone for any MBA education because it is applied so frequently in business - in the decision to develop new products and services, conduct M&A activities among many others.  Competitors and investors examine corporate decisions and movements oftentimes with a close eye to understand the motivations of a company and whether a response is necessary.  Indeed, these activities span the gamut from secret shopping, industry and sector research, to corporate espionage.   Any nugget of information regarding a company’s strategy could yield millions or billions worth of increased forward-looking revenue.
+Competitive strategy is a cornerstone of any business's success. These activities - spanning the gamut from secret shopping, industry and sector research, to corporate espionage - are used to inform key decisions, such as to develop new products and services, to expand to a new geography, or to conduct M&A activities.  Outside stakeholders in a business, whether they are investors, competitors, or partners who wish to capitalize off of a company’s new direction, must pay attention to the actions (or inaction) of major players in their industry.
 
-
-## Most Corporate Development Information is Secret – Except When You Need Outside Help
-
-In many industries, arms-races occur for the development of new products, service offerings, or expansion into new geographies and in many instances, the internal discussions and decisions involving these plans are highly sensitive.  Outside stakeholders, whether they are investors, competitors, or partners who wish to capitalize off of a company’s new direction frequently cannot afford to not pay attention to the actions (or inaction) of a major player in their industry.
-
-With the rise of the Internet, job hunting and recruiting has migrated from the classifieds section in newspapers and bulletin boards, to job boards and careers sections in company websites.  Frequently, for new initiatives in unfamiliar domains or geographies, companies must hire outside talent potentially yielding public visibility into what could be the outcome of very private, executive-level decision. 
-
-Currently, there are no comprehensive platforms to go about scraping, cataloging, and analyzing the job postings and descriptions from companies online.  This opportunity could significantly benefit other market players and investors, such as hedge funds seeking additional information to incorporate into their strategy or investment thesis.  In other words, the data are there, but it is not being leveraged.  
-
+As a result, competitive strategy information is hugely valuable: any nugget of information regarding a company’s strategy could yield millions or billions worth of increased forward-looking revenue for competitors or investors. Companies go to great lengths to conceal their strategy from outsiders and outsiders go to great lengths to reveal it. By leveraging data science to draw out these insights, we can bring additional clarity into the area of competitive strategy.  
 
 ## Working the un-worked data for Profit
 
-I am advocating for the development of a tool to help scrape, analyze, and classify new job postings on a company’s career webpage to gain further insight into a company’s direction and decision making.  Currently the data is not being aggregated and synthesized into meaningful and actionable content – which could be useful to vendors, competitors, investors, and potential partners.  
+Fortunately, data science has made competitive strategy more accessible to outsiders, without the need for traditional corporate espionage. With the rise of the Internet, job hunting and recruiting have migrated from newspapers and bulletin boards to job boards and other online sources.  Because companies must hire outside talent to staff new initiatives in unfamiliar domains or geographies, this could yield public visibility into very private, executive-level decisions. 
 
-For example, would we have been able to foretell the development of Google’s foray into becoming an ISP through their posting of job openings for ISP-related roles?  Or perhaps could we also have identified the limited success and possible reorganization of the same initiative by identifying a reduction in hiring in certain geographies?
+My company is building a tool to help scrape, analyze, and classify new job postings on a company’s career webpage to gain further insight into that company’s strategic direction.  Currently this data is not being aggregated and synthesized into meaningful and actionable content useful to vendors, competitors, investors, and potential partners. In other words, the data is there, but is not being leveraged. 
 
-Perhaps more prospectively, would we be able to predict if and when Amazon begins their push into the pharmaceutical market?  The implications for online and mail order prescription services could be significant, doubly so for shareholders and investors.  
+Job postings reveal a company's strategic direction. For example, we might have been able to foretell the development of Google’s foray into becoming an ISP through their posting of job openings for ISP-related roles. Looking forward, we might be able to predict whether and when Amazon will begin their push into the pharmaceutical market.  The implications for online and mail-order prescription services could be significant, doubly so for shareholders and investors.  
 
-By leveraging data science to draw out these insights, we would be able to bring additional clarity into a previously less-clear area of competitive strategy.  
+While the technical implementation will require additional thought, a rudimentary proof-of-concept system could be developed from scraping the careers pages of a handful of large corporations.  The data would then be parsed for job title, skills, and geographies and then assembled and cross-checked with an established ontological system.  For public companies, an n-gram analysis would be conducted to identify senior management positions that do not have disclosure on their 10Ks or 10Qs, which could lead to a hypothesis of a new geography or product/service push.    
 
-While the technical implementation will require additional thought, a rudimentary proof-of-concept system could be developed from scraping the careers pages from a handful of large corporations.  The data could then be parsed for title, skills, and geographies and then assembled and cross-checked with an established ontological system.  For public companies, an n-gram analysis could be conducted to identify senior management positions that do not have disclosure on their 10Ks or 10Qs, which could lead to a hypothesis of a new geography or product/service push.  
-
-The implementation of such an application’s proof of concept could look like the following:
+#### Example implementation of the proof of concept:
 
 Inputs:
-Shareholder letters, 10K, 10Q, other regulatory filings, company’s general webpage scrapings, webpage scrapes of corporate career pages.
+Shareholder letters; 10K, 10Q, and other regulatory filings; scraped data from the company’s webpage and corporate career page
 
 Development of Infrastructure:
-Creation of a skills and location ontology, so that specific skills roll-up appropriately to specific domains; likewise, specific localities roll up to their respective geographies.
+Creation of skills and location ontologies so that specific skills roll up appropriately to specific domains; likewise, specific localities roll up to their respective geographies.
 Creation of a warehouse of past job postings from corporate career pages.
-Based upon these ontologies and data warehouses, development of creation of n-gram index to compare a diff from new job postings and historical skills, positions, titles, products, and geographies.
+Based upon these ontologies and the past job postings, the tool would develop an n-gram index to compare the new job postings against the historical skills, positions, titles, products, and geographies.
 
 Output:
-Development of algorithm + dashboard + reporting + alerts system to identify major new hirings with respect to new skills, products, geographies, relative to historical data (See inputs).
+A comprehensive solution containing an algorithm, dashboard, reporting, and alerts system to identify major shifts in hiring with respect to new skills, products, geographies, relative to historical data.
 
-Example Process:
-Following setup and initial crunching, the web scraper constantly monitors Example.com to identify Example Corp’s new corporate listings for open positions.  It identifies 27 new listings in the past three months for the hiring of technical staff familiar with a specific aerospace engineering protocol and design.
+#### Example Process:
+Following the setup and initial crunching, the web scraper would constantly monitor Example.com to identify Example Corp’s open positions.  It identifies 27 new listings in the past three months for technical staff familiar with a specific aerospace engineering protocol and design.
 
-The algorithm identifies this trend and looks in the past corpus of data to see whether these new hirings are in line with historical product lines or typical hiring.  Identifying that this aerospace engineering protocol is brand new for this company, it flags the protocol and the specific job descriptions, identifying further n-gram commonalities and identifies additional commonalities such as location.
+The algorithm identifies looks in the past corpus of data to see whether this trend is in line with historical product lines or typical hiring.  Identifying that this aerospace engineering protocol is brand new for this company, it flags the protocol and the specific job descriptions, identifying further commonalities in the text or other data (such as location).
 
-The system then generates a report with this data including a top-level executive summary of this trend, implications for this technology based upon other company’s usage through syncing with other databases, and executes the dispatch of an alert to all subscribing clients who follow this company.  
+The system then generates a report with this data including a top-level executive summary of this trend, implications for this technology based upon other companies' usage through syncing with other databases, and executes the dispatch of an alert to all subscribing clients who follow this company.  
 
-My classmate I-Wae made a fantastic point that the context of the data could be further enriched if I can capture the possibility of developing an internal org chart through additional data like LinkedIn.  This would be an excellent next step to further identify whether there is an opportunity to build out the organizational structure of a company and identify key decision makers and follow them very closely, for additional granular analysis.  For example, if the individuals have public-facing social-media or news releases, the locations and content of these types of content could further enrich the core product of insights from job postings data.
 
-As the data is not fully being leveraged, there is a lot of blue ocean opportunity for a tool described to be built.  However, in the long run, as the majority of information is publicly accessible, there would be the threat of other individuals being able to reverse-engineer or create a new system that could provide perhaps even detailed information.  It is therefore important that this platform constantly be striving to provide more and more strategic and actionable information through improved insight generation and coverage across as many industries and geographies as possible.  
+## Conclusion
+
+The context of the data could be further enriched if the tool could use org chart information available through LinkedIn or another source.  This would help identify key decision makers we could follow more closely for additional analysis.  For example, if the individuals have public-facing social-media or do news releases, the locations and content could further enrich our insights.
+
+As hiring data is not currently being leveraged for competitive strategy purposes, there is a blue ocean opportunity for this tool to be built.  However, since the majority of the information used is publicly accessible, other individuals could reverse-engineer or create a new system to compete with our tool.  It is therefore important that this platform constantly be striving to provide more and more strategic and actionable information through improved insight generation and coverage across as many industries and geographies as possible.  
 
